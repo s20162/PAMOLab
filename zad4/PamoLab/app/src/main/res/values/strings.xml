@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">PamoLab</string>
+    <string name="title_home">BMI</string>
+    <string name="title_dashboard">KCAL</string>
+    <string name="title_notifications">Recipe</string>
+    <string name="title_quiz">Quiz</string>
+    <string name="title_chart">Chart</string>
+    <string name="height_hint">Enter height</string>
+    <string name="calculate_bmi_button_text">Calculate BMI</string>
+    <string name="bmi_result_default_text">BMI</string>
+    <string name="weight_hint">Enter weight</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="meal">
+        <item>Avocado Toast</item>
+        <item>Vegetable Stir Fry</item>
+    </string-array>
+
+    <string-array name="meal_ing_avocado_toast">
+        <item>1 ripe avocado</item>
+        <item>2 slices of bread</item>
+        <item>1 clove garlic, minced</item>
+        <item>1 tablespoon olive oil</item>
+        <item>Salt and pepper to taste</item>
+    </string-array>
+
+    <string-array name="meal_steps_avocado_toast">
+        <item>1. Preheat your oven to 350°F.</item>
+        <item>2. Cut the avocado in half and remove the pit.</item>
+        <item>3. Mash the avocado in a small bowl with a fork.</item>
+        <item>4. Add the minced garlic, olive oil, salt, and pepper to the bowl and mix well.</item>
+        <item>5. Toast the bread in the oven for 5-7 minutes or until it is lightly browned.</item>
+        <item>6. Spread the avocado mixture evenly on each slice of toast.</item>
+        <item>7. Serve immediately.</item>
+    </string-array>
+
+    <string-array name="meal_ing_vegetable_stir_fry">
+        <item>1 red bell pepper, sliced</item>
+        <item>1 yellow bell pepper, sliced</item>
+        <item>1 zucchini, sliced</item>
+        <item>1 yellow squash, sliced</item>
+        <item>1 onion, sliced</item>
+        <item>2 cloves garlic, minced</item>
+        <item>1 tablespoon soy sauce</item>
+        <item>1 tablespoon hoisin sauce</item>
+        <item>1 tablespoon sesame oil</item>
+        <item>2 cups cooked rice</item>
+    </string-array>
+
+    <string-array name="meal_steps_vegetable_stir_fry">
+        <item>Heat the sesame oil in a large skillet or wok over high heat.</item>
+        <item>Add the sliced bell peppers, zucchini, squash, and onion to the skillet and stir-fry for 3-4 minutes or until the vegetables are tender-crisp.</item>
+        <item>Add the minced garlic to the skillet and stir-fry for an additional 30 seconds.</item>
+        <item>Add the soy sauce and hoisin sauce to the skillet and stir well to coat the vegetables.</item>
+        <item>Serve the stir-fry over a bed of cooked rice.</item>
+    </string-array>
+
+    <!-- Array of quiz questions -->
+    <string name="quiz_result">Your score: %1$d out of %2$d</string>
+
+    <string-array name="quiz_questions">
+        <item>What is the recommended daily intake of fruits and vegetables?</item>
+        <item>What is the main source of energy in a healthy diet?</item>
+        <item>What are the benefits of drinking enough water?</item>
+        <item>What is the recommended amount of physical activity per week for adults?</item>
+        <item>What is the role of protein in a healthy diet?</item>
+        <item>What are some examples of whole grains?</item>
+    </string-array>
+
+    <!-- Array of quiz answers -->
+    <string-array name="quiz_answers">
+        <item>5 servings</item>
+        <item>Carbohydrates</item>
+        <item>Hydration, metabolism, and digestion</item>
+        <item>150 minutes</item>
+        <item>To build and repair tissues</item>
+        <item>Brown rice, quinoa, oats</item>
+    </string-array>
+
+    <!-- Array of all possible options -->
+    <string-array name="quiz_all_options">
+        <item>5 servings</item>
+        <item>3 servings</item>
+        <item>2 servings</item>
+        <item>Carbohydrates</item>
+        <item>Fats</item>
+        <item>Proteins</item>
+        <item>Hydration, metabolism, and digestion</item>
+        <item>Improved sleep</item>
+        <item>Healthy skin</item>
+        <item>150 minutes</item>
+        <item>30 minutes</item>
+        <item>60 minutes</item>
+        <item>To build and repair tissues</item>
+        <item>To provide energy</item>
+        <item>To regulate body temperature</item>
+        <item>Brown rice, quinoa, oats</item>
+        <item>White bread, pasta, rice</item>
+        <item>Refined sugar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bmr">
+
+    <fragment
+        android:id="@+id/nav_bmr"
+        android:name="com.example.pamolab.ui.BMR.BmrFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_bmr" />
+
+    <fragment
+        android:id="@+id/nav_bmi"
+        android:name="com.example.pamolab.ui.BMI.BmiFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_bmi" />
+
+    <fragment
+        android:id="@+id/nav_recipe"
+        android:name="com.example.pamolab.ui.recipe.RecipeFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_recipe" />
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.example.pamolab.ui.quiz.QuizFragment"
+        android:label="@string/title_quiz"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/nav_chart"
+        android:name="com.example.pamolab.ui.chart.ChartFragment"
+        android:label="@string/title_chart"
+        tools:layout="@layout/fragment_chart" />
+
+</navigation>
